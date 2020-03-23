@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ehcache>
+<ehcache>
+	<cache name="provider_data" maxElementsInMemory="10000"
+		   eternal="false" timeToIdleSeconds="60" timeToLiveSeconds="60" />
+	<cache name="recipient_metadata" maxElementsInMemory="10000"
+		   eternal="false" timeToIdleSeconds="60" timeToLiveSeconds="60" />
+	<cache name="users" maxElementsInMemory="1000"
+		   eternal="false" timeToIdleSeconds="60" timeToLiveSeconds="60" />
+	<cache name="keycloak_user" maxElementsInMemory="1000"
+		   eternal="false" timeToIdleSeconds="60" timeToLiveSeconds="60" />
+	<cache name="tenant_data_by_realm" maxElementsInMemory="10000"
+		   eternal="false" timeToIdleSeconds="60" timeToLiveSeconds="60" />
+	<cache name="api_by_uuid" maxElementsInMemory="10000"
+		   eternal="false" timeToIdleSeconds="60" timeToLiveSeconds="60" />
+	<cache name="plan_data" maxElementsInMemory="10000"
+		   eternal="false" timeToIdleSeconds="60" timeToLiveSeconds="360" />
+</ehcache>
